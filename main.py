@@ -22,12 +22,16 @@ if userInput == "no":
 
 thirsty = (input("Would you like to buy any of these drinks?" + " Answer yes or no: "))
 
-if thirsty == "yes":
-  print("List your desired items here. Include any extras!")
+while thirsty == "yes":
+  iWant = (input("List the drink you want here. :"))
+while thirsty == "no":
+    break
+    print("Oki")
 
-iWant = thirsty
 
-milkTea = ["Caramel Milk Tea" or "Oreo Milk Tea" or "Hokkaido Milk Tea"]
+
+  
+  
 
 
 
